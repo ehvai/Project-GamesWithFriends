@@ -1,0 +1,5 @@
+const PlayerArray = []
+
+function newPlayer(){
+    
+}

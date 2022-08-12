@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+Games with Friends
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This page is created using React.
 
-## Available Scripts
+The purpose of this project is to have a way for my friends and I to play games together, or just figure out what game we want to play from our library.
+It will contain a list of games each player has, with things like single or multiplayer, game genre, how many players if multiplayer, which platform it is on -PC or Console-, and which launcher it is on - Steam, EA games, etc.  I amy include a star list so if they really liked it versus something like, yeah, I own it but I don't really want to play it.
 
-In the project directory, you can run:
+I am also hoping to include an ability to randomize the game list if you are not sure what you want to play.  You will have options to choose elements from the games like genre or single/multiplayer, or even none and then at the press of a button it will pop out a game from your list.  
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The To Do List:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Login:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Add login screen for people to login - include name, discord id, possibly links to steam and other games for their apis to list games that way
+Add game page to show list of games for each player
+add game page to show list of all games for all players
+add game add page to add new game for each player - maybe add it with the game list so you can see the list and add at the same time
+include delete game so if it is entered in error or if they no longer have the game
+maybe include if the game is installed vs. owned
+a randomizer for when they want to play a game but don't know what they want to play
+include a hey, let's get together page where a player can select a number of players, a list of games with that number of players will appear, then they choose the game
+see if it's possible to ping via discord for the players from the let's get together page
