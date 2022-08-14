@@ -1,10 +1,10 @@
-import ExistingAccount from "./ExistingAccount";
-import CreateNewAccount from "./CreateNewAccount";
+//import ExistingAccount from "./ExistingAccount";
+//import CreateNewAccount from "./CreateNewAccount";
 
-function LoginAccount() {
+function LoginAccount(createAccount) {
   return (
     <>
-      <h2>Please Login Existing Account or Create New Account</h2>
+      <h2>Please Login to an existing account or create a new one.</h2>
     </>
   );
 }

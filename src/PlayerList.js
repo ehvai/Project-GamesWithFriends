@@ -1,5 +1,10 @@
+function playerList(){
 
-const STARTING_PLAYER_LIST=[];
+    return (
+        <h2>
+            This is the player list
+        </h2>
+    )
+}
 
-
-export default STARTING_PLAYER_LIST;
+export default playerList;

@@ -2,7 +2,7 @@
 function Footer(){
    return (
     <footer>
-        This is the Footer!
+        Thank you for using my app!
     </footer>
 ) 
 }

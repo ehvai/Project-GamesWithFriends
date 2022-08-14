@@ -1,0 +1,3 @@
+const STARTING_GAME_LIST=[]
+
+export default STARTING_GAME_LIST;

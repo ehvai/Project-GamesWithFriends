@@ -1,4 +1,4 @@
-import Login from "./LoginAccount"
+import LoginAccount from "./LoginAccount"
 
 function Header(){
 
@@ -6,7 +6,6 @@ return (
     <header>
         This is the Header
         <nav>
-        <Login />   
         </nav>
     </header>
 )
