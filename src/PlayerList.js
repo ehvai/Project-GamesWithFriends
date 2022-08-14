@@ -2,9 +2,4 @@
 const STARTING_PLAYER_LIST=[];
 
 
-function newPlayer(){
-
-    
-};
-
-export default newPlayer;
+export default STARTING_PLAYER_LIST;
